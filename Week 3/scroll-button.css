@@ -1,0 +1,42 @@
+#scroll-button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+#scroll-button > * {
+    background-color: lightseagreen;
+    border: 2px solid green;
+    
+    width: 50px;
+}
+
+#scroll-button > * > p {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+
+    font-size: 30px;
+}
+
+#scroll-button-top {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    border-bottom: 2px solid white;
+}
+
+#scroll-button-bottom {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    border-top: 0;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: white;
+}
