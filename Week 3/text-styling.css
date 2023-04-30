@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+.chapter-name {
+    font-weight: bold;
+}
+
+#current-chapter {
+    color: red;
+}
+
+.chapter > .horizontal-lists {
+    color: blue;
+}

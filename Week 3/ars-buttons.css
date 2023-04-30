@@ -1,0 +1,26 @@
+div {
+    margin-bottom: 20px;
+}
+
+.header, .number {
+    font-size: large;
+}
+
+.header, .numbers {
+    text-align: center;
+}
+
+.number {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background-color: rgb(255, 120, 120);
+
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0px 10px 0px;
+}
