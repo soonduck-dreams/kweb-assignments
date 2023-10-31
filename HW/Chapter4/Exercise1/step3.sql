@@ -1,0 +1,12 @@
+CREATE TABLE `courses` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(30) NOT NULL,
+	`year_entered` VARCHAR(4) NOT NULL,
+	`major` VARCHAR(3) NOT NULL,
+	`student_id` VARCHAR(3) NOT NULL,
+	`phone_number` INT NOT NULL,
+	`address` VARCHAR(100) NOT NULL,
+	`credit_total` INT DEFAULT 0 NOT NULL,
+	`gpa` DOUBLE DEFAULT 0.0 NOT NULL,
+	`attending` TINYINT(1) DEFAULT 1 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
